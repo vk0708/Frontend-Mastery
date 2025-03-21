@@ -2,9 +2,9 @@
 [HTML](#HTML)
 
 ## Table of Contents
-- [Introduction HTML](#HTML)
-- [Introduction CSS](#introduction)
-- [Advanced CSS](#advanced)
+- [Introduction HTML](##HTML)
+- [Introduction CSS](##introduction)
+- [Advanced CSS](##advanced)
 
 ## HTML Notes
 
