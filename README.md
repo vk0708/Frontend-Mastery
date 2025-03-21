@@ -1,6 +1,11 @@
 # Frontend-Mastery
 [HTML](#HTML)
 
+## Table of Contents
+- [Introduction HTML](#HTML)
+- [Introduction CSS](#introduction)
+- [Advanced CSS](#advanced)
+
 ## HTML Notes
 
 ## Elements Used in the Portfolio Website
@@ -53,5 +58,115 @@
 - `<footer>`: Footer section containing copyright information
 <hr>
 
-#### VK0708
+## CSS Tutorial
+
+## Introduction to CSS
+CSS (Cascading Style Sheets) is used to style HTML elements.
+```css
+body {
+    background-color: lightgray;
+}
+```
+
+## CSS Selectors
+Selectors are used to target HTML elements.
+
+- **Element Selector:** Targets elements by tag name.
+    ```css
+    p {
+        color: blue;
+    }
+    ```
+- **Class Selector:** Targets elements by class.
+    ```css
+    .myClass {
+        font-size: 20px;
+    }
+    ```
+- **ID Selector:** Targets a specific element by ID.
+    ```css
+    #myId {
+        background-color: yellow;
+    }
+    ```
+
+## CSS Properties
+Common properties include:
+
+- **Color:** Sets the text color.
+    ```css
+    color: red;
+    ```
+- **Font:** Defines text style.
+    ```css
+    font-family: Arial, sans-serif;
+    ```
+- **Margin & Padding:** Controls spacing.
+    ```css
+    margin: 10px;
+    padding: 20px;
+    ```
+
+## CSS Layout
+Layout techniques include:
+
+- **Flexbox:** A flexible way to arrange elements.
+    ```css
+    display: flex;
+    justify-content: center;
+    ```
+- **Grid:** A powerful layout system.
+    ```css
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    ```
+
+## Responsive Design
+Using media queries for different screen sizes.
+```css
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+```
+
+## Advanced CSS
+Explore advanced CSS techniques to enhance your designs.
+
+- **CSS Variables:** Define reusable values.
+    ```css
+    :root {
+        --primary-color: #3498db;
+    }
+    p {
+        color: var(--primary-color);
+    }
+    ```
+- **Transitions:** Smooth animations for elements.
+    ```css
+    button {
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: #2980b9;
+    }
+    ```
+- **Animations:** Create keyframe animations.
+    ```css
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    .box {
+        animation: fadeIn 2s ease-in;
+    }
+    ```
+- **Clipping & Masking:** Control element visibility.
+    ```css
+    .clip-text {
+        clip-path: circle(50%);
+    }
+    
+#### © 2025 VK0708
 
